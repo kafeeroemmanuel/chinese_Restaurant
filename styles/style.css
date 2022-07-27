@@ -1,0 +1,236 @@
+.img_logo {
+  max-width: 100%;
+  max-height: 100%;
+}
+h1,
+h2 {
+  color: #000000;
+  font-family: "Athelas Regular", "Times New Roman";
+}
+.img_food {
+  width: 300px;
+  height: 200px;
+}
+.img_noodles {
+  width: 300px;
+  height: 200px;
+}
+.img_fish {
+  width: 300px;
+  height: 200px;
+}
+.img_shrimp {
+  width: 300px;
+  height: 200px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+body {
+  font-family: montserrat;
+}
+nav {
+  background: #ef4e22;
+  height: 80px;
+  width: 100%;
+}
+label.logo {
+  color: #fff;
+  font-size: 35px;
+  line-height: 80px;
+  padding: 0 100px;
+  font-weight: bold;
+}
+nav ul {
+  float: right;
+  margin-right: 20px;
+}
+nav ul li {
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+}
+nav ul li a {
+  color: #fff;
+  font-size: 17px;
+  padding: 7px 13px;
+  border-radius: 3px;
+  text-transform: uppercase;
+}
+a.active,
+a:hover {
+  background: #fff;
+  transition: 0.5s;
+  color: #ef4e22;
+}
+.checkbtn {
+  font-size: 30px;
+  color: #fff;
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+}
+#check {
+  display: none;
+}
+@media (max-width: 968px) {
+  label.logo {
+    font-size: 30px;
+    padding-left: 50px;
+  }
+  nav ul li a {
+    font-size: 16px;
+  }
+}
+@media (max-width: 875px) {
+  .checkbtn {
+    display: block;
+  }
+  nav ul {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #8a8c8f;
+    top: 80px;
+    left: -100%;
+    text-align: center;
+    transition: all 0.5s;
+  }
+  nav ul li {
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
+  }
+  nav ul li a {
+    font-size: 20px;
+  }
+  a:hover,
+  a.active {
+    background: none;
+    color: #8a8c8f;
+  }
+  #check:checked ~ ul {
+    left: 0;
+  }
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem 5rem 0rem 0rem;
+  padding: 1rem;
+
+  justify-content: center;
+  text-align: center;
+  /*border: 1px solid red;*/
+}
+.word {
+  color: rgb(173, 16, 16);
+}
+
+.input {
+  width: 60%;
+  padding: 10px 15px;
+  margin: 10px 0;
+  margin-left: 17rem;
+  display: block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.button {
+  border-radius: 4px;
+  width: 22%;
+  margin: 6px 0;
+  margin-left: 28rem;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 10px 5px;
+}
+.heading {
+  font-family: Athelas Regular;
+  font-size: 200%;
+  text-align: center;
+  padding: 0.5em;
+}
+
+h4 {
+  text-align: center;
+  font-size: 140%;
+  margin-top: 2rem;
+}
+.contain_images {
+  /* display: flex; */
+  flex-wrap: wrap;
+  gap: 3rem;
+  margin: 2rem 7rem 8rem 7rem;
+  /* padding: 0px 0px 10px 10px; */
+}
+
+.figure {
+  margin: 1rem 0rem 1rem 1rem;
+}
+
+.reserveContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.reserve {
+  font-weight: bolder;
+  font-size: 150%;
+  text-align: center;
+  margin: 2rem;
+}
+
+.link {
+  text-align: center;
+  font-weight: bold;
+  font-size: 120%;
+}
+.textArea {
+  width: 65%;
+  margin-left: 15rem;
+}
+#places {
+  width: 40%;
+  padding: 10px 15px;
+  margin: 10px 0;
+  margin-left: 25rem;
+  display: block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.fa {
+  padding: 10px;
+  font-size: 15px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55acee;
+  color: white;
+}

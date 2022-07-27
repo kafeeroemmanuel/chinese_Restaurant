@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>My website</title>
+    <meta
+      name="description"
+      content="Chinese Cuisine has been providing the best in fine Chinese cuisine to the Fitchburg and Leominster areas since 1970"
+    />
+    <meta
+      name="keywords"
+      content="Chinese Cuisine, Fitchburg, Leominister, food, Chinese recipes, menus, location"
+    />
+    <meta name="vieport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="styles/style.css" />
+  </head>
+
+  <!--This closes the head section from above and allows the browser to go to the next line -->
+  <body>
+    <!-- This section is where the main code is executed such as important UI elements, headers, and code to allow the user to access another page -->
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="reservations.html">Reservations</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <header>
+      <!-- <img src="images/logo.png" alt="logo" width="250" height="150" /> -->
+    </header>
+    <h1 class="heading">Reservations</h1>
+    <div class="reserveContainer">
+      <p class="reserve">
+        A chance to book a table with us and get the best-experience through
+        Chinese cuisine.
+      </p>
+      <span class="link">
+        Here is a link to see more of what we have
+        <a href="https://food.ndtv.com/recipes/chinese-recipes" target="_blank"
+          >Food Network</a
+        >
+      </span>
+    </div>
+
+    <div class="form">
+      <form class="form">
+        <label for="Reservation">Choose a Location:</label>
+
+        <select id="places">
+          <option>Massachusetts 24 Benedict Street</option>
+          <option>Xioahang Street</option>
+          <option>Beijing KungPao Restaurant</option>
+        </select>
+        <input type="text" placeholder="Name" class="input" />
+        <input type="text" placeholder="Email Address" class="input" />
+        <input type="text" placeholder="Guests" class="input" />
+        <input type="text" placeholder=" Reservation Date " class="input" />
+        <input type="text" placeholder="Message" class="input" />
+        <textarea name="" id="" cols="6" rows="12" class="textArea">
+Your Message</textarea
+        >
+        <button class="button">Submit</button>
+      </form>
+    </div>
+  </body>
+</html>
