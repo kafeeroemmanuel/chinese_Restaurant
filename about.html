@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<!--This is a declaration tag line, that defines file as HTML when executing.It is necessary to defining a file as an HTML and a webpage file will not function properly without it -->
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>My website</title>
+    <meta
+      name="description"
+      content="Chinese Cuisine has been providing the best in fine Chinese cuisine to the Fitchburg and Leominster areas since 1970"
+    />
+    <meta
+      name="keywords"
+      content="Chinese Cuisine, Fitchburg, Leominister, food, Chinese recipes, menus, location"
+    />
+    <meta name="vieport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+
+  <body>
+    <header>
+      <nav id="navbar">
+        <img
+          src="images/logo2.png"
+          alt="Chinese Restaurant logo"
+          class="imagelogo"
+        />
+        <ul id="links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="reservations.html">Reservations</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+
+        <!-- navmenu appearing on smaller screens -->
+        <div id="dropDownContainer">
+          <input type="checkbox" name="navMenu" id="navMenu" />
+          <label for="navMenu" class="dropBtn">
+            <i class="fa fa-bars"></i>
+          </label>
+          <ul class="dropDownLinks">
+            <a href="/">
+              <li>Home</li>
+            </a>
+            <a href="./menu.html">
+              <li>Menu</li>
+            </a>
+            <a href="./gallery.html">
+              <li>Gallery</li>
+            </a>
+            <a href="./reservations.html">
+              <li>Reservations</li>
+            </a>
+            <a href="./about.html">
+              <li>About</li>
+            </a>
+            <a href="./contact.html">
+              <li>Contact</li>
+            </a>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <div>
+      <h1
+        style="
+          text-decoration: underline;
+          margin-top: 2rem;
+          margin-bottom: 1rem;
+        "
+      >
+        CHINESE RESTAURANT
+      </h1>
+      <!--This is our first heading -->
+      <p style="text-align: justify; margin-left: 2rem; font-size: 23px">
+        We bring Quality, Style and Wish for good fortune to all of our guests.
+        We provide a high-end experience through Chinese cuisine.
+      </p>
+      <h2 style="text-decoration: underline; margin-bottom: 1rem">
+        Our Vision:
+      </h2>
+
+      <div class="contentabout" style="padding-left: 1rem; margin-bottom: 3rem">
+        <div class="row">
+          <p style="text-align: justify; font-size: 23px; margin-bottom: 2rem">
+            Our vision for the future is to create experiential dining that is
+            more than just a night out. We aim to bring quality and luxury
+            across all aspects of our brand.<br />The approach of our restaurant
+            is to develop our brand both our culture and consumer insights.
+            Within our vision always lives the promise of inspiring creativity,
+            conversation and quality.
+          </p>
+
+          <!-- <p style="text-align: justify; margin-bottom: 1rem; font-size: 23px">
+            Our audience is a high-end clientele who values a dining experience.
+            The age range of our customers is from early 30s-60s.We welcome them
+            for both personal dining and events.
+          </p> -->
+          <p>
+            <b style="text-decoration: underline">
+              Below are some of our Staff with over 20 years exprience in
+              Michellin Star restaurants.</b
+            >
+          </p>
+        </div>
+        <div class="row" style="padding-left: 40px; margin: 1.2rem">
+          <div class="items" style="padding-left: 40px">
+            <p style="font-size: 28px">DIRECTOR</p>
+            <img
+              src="images/manager3.jpg"
+              alt="Executive Director of the Restaurant"
+              width="300"
+              height="250"
+            />
+          </div>
+          <div class="items" style="padding-left: 40px">
+            <p style="font-size: 28px">HEAD CHEF</p>
+            <img
+              src="images/chef3.jpg"
+              alt="Head of the cooking staff"
+              width="300"
+              height="250"
+            />
+          </div>
+          <div class="items" style="padding-left: 40px">
+            <p style="font-size: 28px">MANAGER</p>
+            <img
+              src="images/chef2.jpg"
+              alt="Managing Director of the Restaurant"
+              width="300"
+              height="250"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="footer">
+        <div class="footerstuff">
+          <img
+            src="images/logo2.png"
+            alt="Chinese Restaurant logo"
+            class="imagefooterlogo"
+          />
+          <div class="foot">
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-twitter"></a>
+            <a href="#" class="fa fa-instagram"></a>
+            <a href="#" class="fa fa-snapchat"></a>
+            <p class="copyright">© 2022 Copyright: Chinese Restaurant</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

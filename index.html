@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<!--This is a declaration tag line, that defines file as HTML when executing.It is necessary to defining a file as an HTML and a webpage file will not function properly without it -->
+<html>
+  <head>
+    <!--This tag defines the area where the title of the page will be used -->
+    <meta charset="utf-8" />
+    <title>Adams Chinese Restaurant</title>
+    <meta
+      name="description"
+      content="Chinese Cuisine has been providing the best in fine Chinese cuisine to the Fitchburg and Leominster areas since 1970"
+    />
+    <meta
+      name="keywords"
+      content="Chinese Cuisine, Fitchburg, Leominister, food, Chinese recipes, menus, location"
+    />
+    <meta name="vieport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <!--This closes the head section from above and allows the browser to go to the next line -->
+
+  <body>
+    <!-- This section is where the main code is executed such as important UI elements, headers, and code to allow the user to access another page -->
+    <header>
+      <nav id="navbar">
+        <img
+          src="images/logo2.png"
+          alt="Chinese Restaurant logo"
+          class="imagelogo"
+        />
+        <ul id="links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="reservations.html">Reservations</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+
+        <!-- navmenu appearing on smaller screens -->
+        <div id="dropDownContainer">
+          <input type="checkbox" name="navMenu" id="navMenu" />
+          <label for="navMenu" class="dropBtn">
+            <i class="fa fa-bars"></i>
+          </label>
+          <ul class="dropDownLinks">
+            <a href="/">
+              <li>Home</li>
+            </a>
+            <a href="./menu.html">
+              <li>Menu</li>
+            </a>
+            <a href="./gallery.html">
+              <li>Gallery</li>
+            </a>
+            <a href="./reservations.html">
+              <li>Reservations</li>
+            </a>
+            <a href="./about.html">
+              <li>About</li>
+            </a>
+            <a href="./contact.html">
+              <li>Contact</li>
+            </a>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <div style="margin-left: 2rem; margin-top: 1.5rem">
+      <h1 style="text-decoration: underline; margin-bottom: 1rem">
+        CHINESE RESTAURANT
+      </h1>
+      <p class="wording">
+        We bring Quality, Style and Wish for good fortune to all of our guests.
+        We provide a high-end experience through Chinese cuisine representing
+        the Chinese Culture.
+      </p>
+      <h2 style="text-decoration: underline; margin-bottom: 1rem">
+        Our Vision
+      </h2>
+
+      <p class="parawording">
+        Provide a variety of Chinese Cuisine to excite and delight Our
+        Customers.
+      </p>
+      <div class="imagesContainer">
+        <a href="/menu.html"
+          ><img
+            src="images/pasta.jpg"
+            alt="pasta meal with greens"
+            class="custom"
+        /></a>
+        <a href="/menu.html"
+          ><img
+            src="images/meat.jpg"
+            alt="Fresh meat served with homemade spices"
+            class="custom"
+        /></a>
+        <a href="/menu.html"
+          ><img
+            src="images/pork.jpg"
+            alt="Chopped Pork and Wonton Soup"
+            class="custom"
+        /></a>
+        <a href="/menu.html"
+          ><img
+            src="images/beefbroccoli.jpg"
+            alt=" A plate of Beef served with Broccoli, Vegan friendly "
+            class="custom"
+        /></a>
+      </div>
+
+      <p class="wording">
+        Our audience is a high-end clientele who values a dining experience. The
+        age range of our customers are from their early 30s-60s. <br />We
+        welcome them to for both personal dining and events. Feel free to browse
+        through our website.
+      </p>
+    </div>
+
+    <footer>
+      <div class="footer">
+        <div class="footerstuff">
+          <img
+            src="images/logo2.png"
+            alt="Chinese Restaurant logo"
+            class="imagefooterlogo"
+          />
+          <div class="foot">
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-twitter"></a>
+            <a href="#" class="fa fa-instagram"></a>
+            <a href="#" class="fa fa-snapchat"></a>
+            <p class="copyright">© 2022 Copyright: Chinese Restaurant</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

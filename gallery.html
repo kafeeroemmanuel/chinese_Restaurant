@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>My website</title>
+    <meta
+      name="description"
+      content="Chinese Cuisine has been providing the best in fine Chinese cuisine to the Fitchburg and Leominster areas since 1970"
+    />
+    <meta
+      name="keywords"
+      content="Gallery full of Chinese recipes, menus, location"
+    />
+    <meta name="vieport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+
+  <body>
+    <!-- This section is where the main code is executed such as important UI elements, headers, and code to allow the user to access another page -->
+    <header>
+      <nav id="navbar">
+        <img
+          src="images/logo2.png"
+          alt="Chinese Restaurant logo"
+          class="imagelogo"
+        />
+        <ul id="links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="reservations.html">Reservations</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+
+        <!-- navmenu appearing on smaller screens -->
+        <div id="dropDownContainer">
+          <input type="checkbox" name="navMenu" id="navMenu" />
+          <label for="navMenu" class="dropBtn">
+            <i class="fa fa-bars"></i>
+          </label>
+          <ul class="dropDownLinks">
+            <a href="/">
+              <li>Home</li>
+            </a>
+            <a href="./menu.html">
+              <li>Menu</li>
+            </a>
+            <a href="./gallery.html">
+              <li>Gallery</li>
+            </a>
+            <a href="./reservations.html">
+              <li>Reservations</li>
+            </a>
+            <a href="./about.html">
+              <li>About</li>
+            </a>
+            <a href="./contact.html">
+              <li>Contact</li>
+            </a>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <h1 class="heading">Our Gallery</h1>
+    <h2 style="font-size: 28px; text-decoration: underline">
+      Welcome to Our Spacious Gallery
+    </h2>
+    <p style="font-size: 23px; margin: 0.8rem">
+      We treat our Guests to only the best in Luxury and dining experience.
+    </p>
+    <!--This is our first heading -->
+    <div class="contain_images">
+      <div class="gallerycontain">
+        <video
+          class="visualmedia"
+          controls
+          autoplay
+          muted
+          style="margin-left: 100px"
+          loop
+        >
+          <source
+            src="images/New video.mp4"
+            type="video/mp4"
+            alt=" A video of our services "
+          />
+        </video>
+        <img
+          src="images/entry.avif"
+          alt="Photo of Chinese Restaurant entrance"
+          class="visualmedia"
+        />
+        <img
+          src="images/dine.avif"
+          alt="Chinese Restaurant main dining hall"
+          class="visualmedia"
+        />
+        <img
+          src="images/lantern.avif"
+          alt="Red Lantern Chinese Restaurant"
+          class="visualmedia"
+        />
+        <img
+          src="images/dining.avif"
+          alt="Chinese Restaurant second dining hall"
+          class="visualmedia"
+        />
+        <img
+          src="images/bar.avif"
+          alt="Bar section for Refreshments"
+          class="visualmedia"
+        />
+        <img
+          src="images/lounge.avif"
+          alt="Comfortable lounge for relaxing"
+          class="visualmedia"
+        />
+      </div>
+    </div>
+
+    <footer>
+      <div class="footer">
+        <div class="footerstuff">
+          <img
+            src="images/logo2.png"
+            alt="Chinese Restaurant logo"
+            class="imagefooterlogo"
+          />
+          <div class="foot">
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-twitter"></a>
+            <a href="#" class="fa fa-instagram"></a>
+            <a href="#" class="fa fa-snapchat"></a>
+            <p class="copyright">© 2022 Copyright: Chinese Restaurant</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

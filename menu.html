@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<!--This is a declaration tag line, that defines file as HTML when executing.It is necessary to defining a file as an HTML and a webpage file will not function properly without it -->
+<html>
+  <head>
+    <!--This tag defines the area where the title of the page will be used -->
+    <meta charset="utf-8" />
+    <title>Menu Page</title>
+    <meta
+      name="description"
+      content="Chinese Cuisine has been providing the best in fine Chinese cuisine to the Fitchburg and Leominster areas since 1970"
+    />
+    <meta
+      name="keywords"
+      content="Chinese Cuisine, Fitchburg, Leominister, food, Chinese recipes, menus, location"
+    />
+    <meta name="vieport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <!--This closes the head section from above and allows the browser to go to the next line -->
+
+  <body>
+    <!-- This section is where the main code is executed such as important UI elements, headers, and code to allow the user to access another page -->
+    <header>
+      <nav id="navbar">
+        <img
+          src="images/logo2.png"
+          alt="Chinese Restaurant logo"
+          class="imagelogo"
+        />
+        <ul id="links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="reservations.html">Reservations</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+
+        <!-- navmenu appearing on smaller screens -->
+        <div id="dropDownContainer">
+          <input type="checkbox" name="navMenu" id="navMenu" />
+          <label for="navMenu" class="dropBtn">
+            <i class="fa fa-bars"></i>
+          </label>
+          <ul class="dropDownLinks">
+            <a href="/">
+              <li>Home</li>
+            </a>
+            <a href="./menu.html">
+              <li>Menu</li>
+            </a>
+            <a href="./gallery.html">
+              <li>Gallery</li>
+            </a>
+            <a href="./reservations.html">
+              <li>Reservations</li>
+            </a>
+            <a href="./about.html">
+              <li>About</li>
+            </a>
+            <a href="./contact.html">
+              <li>Contact</li>
+            </a>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <div class="content">
+      <h1
+        style="
+          text-decoration: underline;
+          margin-top: 2rem;
+          margin-bottom: 0.5rem;
+        "
+      >
+        OUR MENU
+      </h1>
+      <p class="parawording">
+        Below is a selection of our menu. We combine a variety of chinese
+        cuisine to excite and delight our customers.
+      </p>
+      <div class="foods">
+        <div class="items">
+          <p style="font-size: 25px">Beef Curry</p>
+          <a href="#"
+            ><img
+              src="images/beef curry.jpg"
+              alt="A buffet served with a plenty of dishes ranging from spicy beef to rice"
+              class="itemsimage"
+          /></a>
+          <h4>$35.32 US Dollars</h4>
+        </div>
+        <div class="items">
+          <p style="font-size: 25px">Steam Beef</p>
+          <a href="#"
+            ><img
+              src="images/beef.jpg"
+              alt=" Steamed peppery beef"
+              class="itemsimage"
+          /></a>
+          <h4>$20.32 US Dollars</h4>
+        </div>
+        <div class="items">
+          <p style="font-size: 25px">Beef Brocoli</p>
+          <a href="#"
+            ><img
+              src="images/beefbroccoli.jpg"
+              alt="A plate of Beef served with Broccoli, Vegan friendly "
+              class="itemsimage"
+          /></a>
+          <h4>$34.32 US Dollars</h4>
+        </div>
+
+        <div class="items">
+          <p style="font-size: 25px">Fish</p>
+          <a href="#"
+            ><img
+              src="images/fish.jpg"
+              alt="fish soup topped with savoury swiss cheese"
+              class="itemsimage"
+          /></a>
+          <h4>$50.32 US Dollars</h4>
+        </div>
+        <div class="items">
+          <p style="font-size: 25px">Chili Cheese</p>
+          <a href="#"
+            ><img
+              src="images/chilibowl.jpg"
+              alt=" Freshly cooked chilli soup with cheese on top"
+              class="itemsimage"
+          /></a>
+          <h4>$26.32 US Dollars</h4>
+        </div>
+        <div class="items">
+          <p style="font-size: 25px">Shrimp Pasta</p>
+          <a href="#"
+            ><img
+              src="images/pasta.jpg"
+              alt="slow cooked pasta marinated with chilly spicy"
+              class="itemsimage"
+          /></a>
+          <h4>$29.32 US Dollars</h4>
+        </div>
+
+        <div class="items">
+          <p style="font-size: 25px">Salad Beef</p>
+          <a href="#"
+            ><img
+              src="images/salad.jpg"
+              alt="healthy salad meal assortment with beetroot and lettuce"
+              class="itemsimage"
+          /></a>
+          <h4>$22.32 US Dollars</h4>
+        </div>
+        <div class="items">
+          <p style="font-size: 25px">Noodles</p>
+          <a href="#"
+            ><img
+              src="images/noodles.jpg"
+              alt="A bowl of chinese noodles mixed in spicy soup"
+              class="itemsimage"
+          /></a>
+          <h4>$16.32 US Dollars</h4>
+        </div>
+        <div class="items">
+          <p style="font-size: 25px">Duck</p>
+          <a href="#"
+            ><img
+              src="images/duck.jpg"
+              alt="Tenderly Roasted Peking Duck served with delicious toppings"
+              class="itemsimage"
+          /></a>
+          <h4>$20.32 US Dollars</h4>
+        </div>
+
+        <div class="items">
+          <p style="font-size: 25px">Soy Shrimp</p>
+          <a href="#"
+            ><img
+              src="images/shrimp.jpg"
+              alt="spiced shrimp"
+              class="itemsimage"
+          /></a>
+          <h4>$23.32 US Dollars</h4>
+        </div>
+        <div class="items">
+          <p style="font-size: 25px">Lunch Spread</p>
+          <a href="#"
+            ><img
+              src="images/tablespread.jpg"
+              alt="A full course meal with the Table spread"
+              class="itemsimage"
+          /></a>
+          <h4>$30.32 US Dollars</h4>
+        </div>
+        <div class="items">
+          <p style="font-size: 25px">Beef salad Special</p>
+          <a href="#"
+            ><img
+              src="images/hamfood.jpg"
+              alt="Delicious ham hocks mixed with salads"
+              class="itemsimage"
+          /></a>
+          <h4>$30.32 US Dollars</h4>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="footer">
+        <div class="footerstuff">
+          <img
+            src="images/logo2.png"
+            alt="Chinese Restaurant logo"
+            class="imagefooterlogo"
+          />
+          <div class="foot">
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-twitter"></a>
+            <a href="#" class="fa fa-instagram"></a>
+            <a href="#" class="fa fa-snapchat"></a>
+            <p class="copyright">© 2022 Copyright: Chinese Restaurant</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
