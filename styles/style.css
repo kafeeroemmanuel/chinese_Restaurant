@@ -49,20 +49,28 @@ h4 {
   color: #5c2626;
   margin-left: 90px;
 }
-.custom {
-  width: 400px;
-  height: 250px;
-  margin: 10px;
-  box-shadow: 10px 10px 5px rgb(27, 27, 27);
-}
+
 video {
   border-radius: 10px;
   box-shadow: 10px 10px 5px rgb(27, 27, 27);
 }
 .imagesContainer {
-  max-width: 80%;
-  margin-left: 200px;
-  padding: 15px;
+  display: flex;
+  width: 90%;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 auto;
+  /* margin-left: 200px; */
+  /* padding: 15px; */
+}
+
+.custom {
+  width: 360px;
+  height: 240px;
+  margin: 10px;
+  box-shadow: 10px 10px 5px rgb(27, 27, 27);
+  display: block;
+  flex-basis: 100%;
 }
 
 img {
@@ -90,10 +98,7 @@ label {
   text-align: center;
   font-family: Athelas Regular;
   font-size: 25px;
-  padding-left: 20px;
-  padding-top: 5px;
-  padding-right: 20px;
-  /* padding-bottom: 10px; */
+  padding: 5px 20px 0px 20px;
 }
 
 .gallerycontain {
@@ -142,21 +147,24 @@ label {
 
 @media only screen and (min-width: 640px) {
   .visualmedia,
-  .itemsimage {
+  .itemsimage,
+  .custom {
     flex-basis: 50%;
   }
 }
 
 @media only screen and (min-width: 960px) {
   .visualmedia,
-  .itemsimage {
+  .itemsimage,
+  .custom {
     flex-basis: 33.333%;
   }
 }
 
 @media only screen and (min-width: 1280px) {
   .visualmedia,
-  .itemsimage {
+  .itemsimage,
+  .custom {
     flex-basis: 25%;
   }
 }
@@ -362,6 +370,10 @@ a:hover {
   background: #f1d1c7;
   transition: 0.5s;
   color: #f14414;
+}
+
+#logolink:hover {
+  background: #f14414;
 }
 
 .visualmedia {
