@@ -299,7 +299,7 @@ a:hover {
 }
 
 .footerbottom {
-  padding: 5px 0;
+  padding: 0;
 }
 
 .form {
@@ -337,6 +337,15 @@ a:hover {
   padding: 0.5em;
   text-decoration: underline;
 }
+.secondheading {
+  font-size: 28px;
+  /* text-decoration: underline; */
+}
+
+.gallerytext {
+  font-size: 23px;
+  margin: 0.8rem;
+}
 .contactform {
   background-color: #fff;
   width: 70%;
@@ -351,6 +360,10 @@ a:hover {
   width: 90%;
   border: 1px solid red;
   margin-left: 100px;
+}
+
+.contactinfo {
+  line-height: 3rem;
 }
 h5 {
   text-align: center;
@@ -375,6 +388,7 @@ h5 {
 
 .reservetext {
   margin-bottom: 1rem;
+  margin-left: -15rem;
 }
 
 .formlabel {
@@ -415,6 +429,7 @@ select {
   font-size: 15px;
   color: #350e0e;
 }
+
 input::placeholder {
   font-size: 20px;
   color: #350e0e;
@@ -430,6 +445,7 @@ input::placeholder {
   border-radius: 4px;
   box-sizing: border-box;
 }
+
 .fa {
   padding: 10px;
   font-size: 27x;
@@ -513,11 +529,13 @@ input::placeholder {
     margin-right: 3rem;
     padding: 0%;
     white-space: no wrap;
+    font-family: serif;
   }
   .parawording {
     font-size: 1.3rem;
     margin-right: 1.2rem;
     padding: 0%;
+    font-family: serif;
     white-space: no wrap;
   }
   .custom {
@@ -604,11 +622,47 @@ input::placeholder {
     display: none;
   }
   .reservetext {
-    margin-left: -7rem;
+    margin-left: -15rem;
+  }
+
+  .formlabel {
+    width: 100%;
+    border: 1px solid red;
+    padding-right: 3rem;
+    /* margin-left: 200px; */
+  }
+  #places,
+  .textArea,
+  .input {
+    width: 100%;
+    margin: 10px 0;
+    margin-left: 2rem;
+    /* border: 1px solid #ccc; */
+    border-radius: 4px;
+    font-size: 20px;
+  }
+
+  input::placeholder {
+    font-size: 15px;
+    color: #350e0e;
+  }
+  .button {
+    width: 50%;
+    margin: 0.5rem 6rem 0;
+    padding: 10px 5px;
+    font-size: 15px;
+    color: #ffffff;
+    border: 1px solid #382c29;
   }
   .contentabout {
     width: 100%;
     /* height: 120vh; */
+  }
+  .formlabel {
+    margin-left: -8rem;
+  }
+  .contactform {
+    margin-left: 7rem;
   }
 }
 
@@ -652,7 +706,7 @@ input::placeholder {
   }
   .parawording {
     font-size: 1.2rem;
-    margin-right: 1.2rem;
+    margin-right: 2.5rem;
     padding: 0%;
     white-space: no wrap;
   }
@@ -662,7 +716,10 @@ input::placeholder {
   .contactform {
     display: none;
   }
-
+  .contactinfo {
+    line-height: 5rem;
+    font-weight: bold;
+  }
   .responselink {
     color: #5c2626;
     font-size: 1.5rem;
@@ -677,7 +734,15 @@ input::placeholder {
   .gallerycontain {
     margin: 0.5rem auto;
   }
-
+  .heading {
+    font-size: 30px;
+  }
+  .secondheading {
+    font-size: 24px;
+  }
+  .gallerytext {
+    font-size: 20.5px;
+  }
   .footer-content {
     display: flex;
     flex-direction: column;
@@ -687,11 +752,6 @@ input::placeholder {
     display: flex;
     flex-direction: column;
   }
-
-  /* .footerbottom {
-     position: fixed; 
-    margin-left: 15rem; 
-  } */
 
   .footersocials {
     margin: 0.2rem 0rem 0rem -5rem;
